@@ -95,3 +95,38 @@ a:hover{
     color: black;
     background-color: hsl(75, 94%, 57%);
 }
+
+
+@media (max-width: 768px) {
+    .container{
+    border-radius: 25px;
+    padding-top: 100px;
+    
+    
+    text-align: center;
+    height: 770px;
+
+
+    background-color: hsl(0, 0%, 12%);
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+a{
+
+
+    padding-top: 20px;
+    margin: 5px;
+    width: 300px;
+    
+
+    border-radius: 13px;
+    height: 40px;
+}
+.botao{
+    gap: 12px;
+    padding-left: 50px;
+}    
+}
